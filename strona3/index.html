@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karta Gracza</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="player-card">
+    <!-- TODO: dodaj sekcje karty gracza -->
+    <header class="card-header">
+      <figure class="avatar">
+        <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed-PixelMaster" alt="Awatar gracza" width="80" height="80">
+        <figcaption>Awatar: PacaAleks</figcaption>
+      </figure>
+ 
+      <h1>Karta gracza</h1>
+      <p>Nick: <span class="hightlight">PacaAleks</span></p>
+    </header>
+
+    <nav class="card-nav">
+      <a href="#bio">Bio</a>
+      <a href="#equipment">Ekwipunek</a>
+      <a href="#achievements">Osiągnięcia</a>
+    </nav>
+
+
+    <section class="card-section bio" id="bio">
+    <h2>Bio</h2>
+    <p>Poziom: <strong>23</strong></p>
+    <p>Klasa: <strong>Bezrobocie</strong></p>
+    <p>Gildia: <strong>Ławka pod sklepem</strong></p>
+    </section>
+    <section class="card-section equipment" id="equipment">
+      <h2>Ekwipunek</h2>
+      <ul>
+        <li>Żuber z kaucją</li>
+        <li>Magiczny oddech żula</li>
+        <li>Umiejętność latania"odblokawana tylko po wypiciu czterech Harnasi"</li>
+      </ul>
+      </section>
+      <section class="card-section achievements" id="achievements">
+        <h2>Osiągnięcia</h2>
+        <ul>
+          <li>Pokonanie wielkiego lorda verity</li>
+          <li>Zdobycie pracy</il>
+          <li>Nie wydać 20 zł od mamy na automaty dżordżo five</li>
+        </ul>
+        <details>
+          <summary>Pokaż szczegóły osiągnięcia</summary>
+          <p>Pogromca śmietnika - zdobyto 14.10.2026 pod sklepem pod lipami</p>
+          <p>Umiejętność zwidów odblokowana = zdobyto drugą umiejętność</p>
+          <p>Pierwsze sptkanie z lordem VERITY pvp walka - w 4 dni od startu</p>
+          <p>Pogromaca żółtych kulek z uśmiechem - 8000 punktów verity</p>
+          <p>Pierwsze w histori użycie mózgu - zdobyto 6.10.2026</p>
+        </details>
+      </section>
+
+      <footer class="card-footer">
+        <p>Ostatnia aktywność: <time datatime="2026-10-17">17 października 2026</time></p>
+      </footer>
+  </main>
+</body>
+</html>
